@@ -54,3 +54,70 @@ Create a `.env` file based on `.env.example`:
 NODE_ENV=development
 PORT=3000
 DATABASE=mongodb://127.0.0.1:27017/project-name
+
+▶️ Getting Started
+1️⃣ Install dependencies
+// bash
+npm install
+
+2️⃣ Run in development mode
+// bash
+npm run dev
+
+3️⃣ Health check
+GET /api/v1/health
+
+Response:
+
+{
+  "status": "OK"
+}
+
+--
+🧠 Error Handling
+
+This project uses a centralized global error handler.
+
+Operational errors use AppError
+
+Async errors are automatically caught using catchAsync
+
+Different responses for development & production
+
+Example:
+return next(new AppError('Resource not found', 404));
+
+---------------------------------------------------------------
+📦 Reusing This Starter
+
+This repository is designed to be reused as a GitHub template.
+
+Steps:
+
+Click Use this template
+
+Create a new repository
+
+Run npm install
+
+Start building your API
+
+------------------------------------------------------------------
+📌 Use Case
+
+This starter is ideal for:
+
+Portfolio projects
+
+REST API backends
+
+SaaS MVPs
+
+Learning clean backend architecture
+
+-------------------------------------------------------------------
+👤 Author
+
+Ahmed Samir
+Backend Developer (Node.JS)
+GitHub: https://github.com/Ahmed-Samir12
