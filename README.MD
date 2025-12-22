@@ -32,6 +32,7 @@ This project provides a solid foundation with best practices for structure, erro
 
 ## 📁 Project Structure
 
+```
 src/
 ├── app.js # Express app configuration
 ├── server.js # Server & database bootstrap
@@ -43,8 +44,8 @@ src/
 ├── utils/ # Utility classes & helpers
 │ ├── AppError.js # Custom error class
 │ └── catchAsync.js # Async error wrapper
-
----
+```
+---------------------------------------------------
 
 ## ⚙️ Environment Variables
 
@@ -54,18 +55,23 @@ Create a `.env` file based on `.env.example`:
 NODE_ENV=development
 PORT=3000
 DATABASE=mongodb://127.0.0.1:27017/project-name
+```
 
 ▶️ Getting Started
 1️⃣ Install dependencies
-// bash
+```
 npm install
+```
 
 2️⃣ Run in development mode
-// bash
+```
 npm run dev
+```
 
 3️⃣ Health check
+```
 GET /api/v1/health
+```
 
 Response:
 
@@ -73,7 +79,7 @@ Response:
   "status": "OK"
 }
 
---
+-----------------------------------------------------
 🧠 Error Handling
 
 This project uses a centralized global error handler.
@@ -118,6 +124,7 @@ Learning clean backend architecture
 -------------------------------------------------------------------
 👤 Author
 
-Ahmed Samir
-Backend Developer (Node.JS)
-GitHub: https://github.com/Ahmed-Samir12
+**Ahmed Samir**
+**Backend Developer (Node.JS)**
+**GitHub: https://github.com/Ahmed-Samir12**
+
