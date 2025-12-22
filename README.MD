@@ -74,13 +74,13 @@ GET /api/v1/health
 ```
 
 Response:
-
+```
 {
   "status": "OK"
 }
-
+```
 -----------------------------------------------------
-🧠 Error Handling
+## 🧠 Error Handling
 
 This project uses a centralized global error handler.
 
@@ -94,7 +94,7 @@ Example:
 return next(new AppError('Resource not found', 404));
 
 ---------------------------------------------------------------
-📦 Reusing This Starter
+## 📦 Reusing This Starter
 
 This repository is designed to be reused as a GitHub template.
 
@@ -109,7 +109,7 @@ Run npm install
 Start building your API
 
 ------------------------------------------------------------------
-📌 Use Case
+## 📌 Use Case
 
 This starter is ideal for:
 
@@ -122,9 +122,10 @@ SaaS MVPs
 Learning clean backend architecture
 
 -------------------------------------------------------------------
-👤 Author
+## 👤 Author
 
 **Ahmed Samir**
 **Backend Developer (Node.JS)**
 **GitHub: https://github.com/Ahmed-Samir12**
+
 
